@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f3a3d;
+  color: aliceblue;
+  font-family: "Agbalumo";
+  background: #181a1a;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: small;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid white;
+}
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
